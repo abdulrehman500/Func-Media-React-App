@@ -1,0 +1,29 @@
+ 
+
+
+
+ section  p  {
+    color: white;
+    text-align: center;
+    width: 80%;
+    margin-left: auto;
+    font-size: 24px;
+   line-height: 42px;
+    margin-right: auto;
+ }
+ section  h1 span  {
+color: yellow;
+ }
+ section  h1 {
+color: white;
+width: 50%;
+margin-left: auto;
+margin-right: auto;
+text-align: center;
+ font-size: 122px;
+ }
+ section { 
+     padding-top: 120px;
+     padding-bottom: 120px;
+     background-color: black;
+ }
