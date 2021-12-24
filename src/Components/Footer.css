@@ -36,8 +36,8 @@ a:active, a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 40px;
-    height: 40px;
+    /* width: 40px;
+    height: 40px; */
     margin: 3px;
     padding: 10px;
     -webkit-box-pack: center;
@@ -57,8 +57,8 @@ a:active, a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 135px;
-    height: 40px;
+    width: 230px;
+    height: 80px;
     margin: 3px;
     padding: 10px 0;
     -webkit-box-pack: center;
@@ -99,27 +99,7 @@ a:active, a:hover {
     align-items: center;
 }
 .footer-v1-contacts {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    width: 33%;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-align: center;
-    -webkit-align-items: center;
-    -ms-flex-align: center;
-    align-items: center;
-    border-right: 1px hsla(0,0%,100%,.1);
-    font-size: 12px;
-    line-height: 20px;
+
 }
 .footer-v1-link {
     margin-top: -4px;
@@ -141,7 +121,7 @@ a:active, a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 33%;
+    
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -178,7 +158,7 @@ a:active, a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 33%;
+   margin-top: 120px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -205,6 +185,7 @@ a:active, a:hover {
     border-right: 1px solid #383838;
 }
 .wrapper {
+    margin-bottom: 120px;
     position: relative;
     z-index: 1;
     display: block;
@@ -254,4 +235,90 @@ a:active, a:hover {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+}
+.bold-text-18 {
+    color: #f4b70c;
+}
+.footer-bar {
+    width: 231px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer-bar a .img-footer {
+    width: 50px;
+    margin: 0px;
+}
+
+.image-7 {
+    width: 55%;
+}
+
+a:active, a:hover {
+    outline: 0;
+}
+
+.careers-button {
+    position: relative;
+    z-index: 1;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    overflow: hidden;
+    width: auto;
+    margin-top: 15px;
+    padding: 12px 20px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-style: none;
+    border-radius: 0;
+   
+    -webkit-transition: color .3s;
+    transition: color .3s;
+    font-family: 'Helvetica Neue',sans-serif;
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+.btn-hover {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 17px;
+ color: white;
+  padding: 12px 70px;
+    background-color: #f4b70c;
+    border-radius: 0%;
+}
+.footer-v1-contacts {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 120px;
+}
+.footer-bottom-left {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 25px;
+    width: 400px;
+   margin-left: auto;
+}
+.text-block-31 {
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+    margin-right: 3px; 
+
+}
+
+.footer-bottom-divider.dark-bg {
+    background-color: #888;
 }

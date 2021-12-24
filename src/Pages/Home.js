@@ -5,6 +5,7 @@ import Digital from '../Components/Digital'
 import RecentWork from '../Components/RecentWork'
 import Words from '../Components/Words'
 import Footer from '../Components/Footer'
+import Conversation from '../Components/Conversation'
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
               <Digital></Digital>
               <RecentWork></RecentWork>
               <Words></Words>
+          <Conversation></Conversation>
               <Footer></Footer>
         </div>
     )

@@ -1,0 +1,101 @@
+.form05_h5 {
+    margin-bottom: 3rem;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-size: 7rem;
+    line-height: 85px;
+    text-align: center;
+    text-transform: lowercase;
+    color: white;
+    margin-top: 1rem;
+
+    font-weight: 700;;
+}
+.conversation {
+    margin-top: 120px;
+    margin-bottom: 10px;
+}
+
+.form05_form_block {
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 700;
+    /* border: 2px solid red;  */
+  
+}
+
+.w-form {
+    margin: 0 0 15px;
+}
+.form05_form {
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 700;
+}
+.form05_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-family: 'Helvetica Neue',sans-serif;
+    font-weight: 700;
+}
+.form05_input {
+    display: inline-block;
+    width: 200px;
+    height: 40px;
+    margin-bottom: 0;
+    padding-bottom: 10px;
+    padding-left: 8px;
+    border-style: none none solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #ebecf0;
+    background-color: transparent;
+    opacity: .5;
+    color: #ebecf0;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.form05_title {
+    color: white;
+    padding-right: 7px;
+    font-size: 22px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+.form05_button {
+   
+    margin-top: 35px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 0;
+    background-color: #f4b721;
+    color: #fff;
+    font-size: 23px;
+    letter-spacing: 1.5px;
+    text-transform: lowercase;
+    width: 620px;
+    margin-left: auto;
+    margin-right: auto;
+  border: none;
+}
+.repcatcha 
+{
+
+    width: 320px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+    margin-top: 60px;
+}
