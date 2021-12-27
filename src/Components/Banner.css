@@ -125,6 +125,10 @@ border: 1px solid rgb(255, 255, 255);
   animation-duration: 1s;
   animation-delay: 2.4s;
 }
+.as-seen-in-logos {
+  display: flex;
+  justify-content: space-evenly;
+}
 
 /* Button */
 .delicious-btn {
