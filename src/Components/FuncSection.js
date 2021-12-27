@@ -8,7 +8,7 @@ export default function FuncSection() {
 
 
     return (
-        <section>
+        <section className='mt-4 pt-5'>
             <h1>we are <br></br> func <span>.</span> media</h1>
     <p className='marketing-text'  >We’re a full-service millennial run marketing agency - offering inventive, results-driven solutions that 
     harness the highest immediate return in digital + social media. With core services anchored around digital 

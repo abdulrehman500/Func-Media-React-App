@@ -19,6 +19,8 @@
     font-family: 'Helvetica Neue',sans-serif;
     font-weight: 700;
     /* border: 2px solid red;  */
+    padding-left: 60px;
+    padding-top: 40px;
   
 }
 
@@ -35,8 +37,8 @@
     display: -ms-flexbox;
     display: flex;
     margin-bottom: 15px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
     -webkit-flex-direction: row;
@@ -48,6 +50,20 @@
     font-family: 'Helvetica Neue',sans-serif;
     font-weight: 700;
 }
+.form05_input::placeholder { 
+    color: #f4b70c;
+    opacity: 1; /* Firefox */
+  }
+.form05_input:focus-visible {
+    border: 1px solid black !important;
+}
+input:focus-visible {
+    outline: none;
+    border-bottom: 2px solid red;
+}
+input[type=text]:focus {
+    border-bottom: 3px solid #f4b70c !important;
+  }
 .form05_input {
     display: inline-block;
     width: 200px;
@@ -69,7 +85,7 @@
 .form05_title {
     color: white;
     padding-right: 7px;
-    font-size: 22px;
+    font-size: 40px;
     line-height: 40px;
     font-weight: 700;
 }

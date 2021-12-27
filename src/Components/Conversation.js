@@ -8,13 +8,13 @@ export default function conversation() {
 
 <h5 class="form05_h5">Let's start a<br/>conversation<strong class="bold-text-30">.</strong></h5>
 <div class="container ">
-<div class="form05_form_block w-form">
+<div class="form05_form_block w-form-custom">
    <form data-name="func media form" name="wf-form-func.media-form" id="email-form" method="get" class="form05_form"
     aria-label="func media form">
       <div class="form05_wrap"><label for="Name" class="form05_title">Hey, my name is</label>
       <input type="text" class="form05_input w-input" maxlength="256" name="Name" data-name="Name" placeholder="..." id="Name" required=""/></div>
       <div class="form05_wrap"><label for="Email" class="form05_title">My email address is</label>
-      <input type="email" class="form05_input w-input" maxlength="256" name="Email" data-name="Email" placeholder="..." id="Email" required=""/></div>
+      <input type="text" class="form05_input w-input" maxlength="256" name="Email" data-name="Email" placeholder="..." id="Email" required=""/></div>
       <div class="form05_wrap"><label for="I-m-Looking-For-2" class="form05_title">I am looking for help with a</label>
       <input type="text" class="form05_input project w-input" maxlength="256" name="I-m-Looking-For" data-name="I'm Looking For" placeholder="website, branding, etc" id="I-m-Looking-For-2"/></div>
       <div class="form05_wrap"><label for="My-max-budget-is" class="form05_title">My maximum budget is</label>

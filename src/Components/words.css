@@ -25,6 +25,45 @@ section .show_skew-on_load {
     color: #fff;
     top: 150%;
   }
+  .paragraph {
+    color: #fff;
+  }
+  .arrow-icon {
+    rotate: 190px;
+    margin: 120px;
+  }
+  .arrow-wrapper .text-work {
+  margin-right: 12px;
+  }
+
+  .toggle-up {
+    animation-name: toggle-up;
+    animation-delay: 0.25s;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+  }
+  .toggle-down {
+    animation-name: toggle-down;
+    animation-delay: 0.25s;
+    animation-duration: 0.75s;
+    animation-fill-mode: forwards;
+  }
+  
+  /*animations*/
+  @keyframes toggle-up {
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  @keyframes toggle-down {
+    100% {
+      transform: rotate(180deg);
+    }
+  }
+  .arrow-wrapper {
+    border-bottom: 2px solid white;
+    padding-bottom: 20px;
+  }
 .testimonial-icon {
     position: absolute;
     left: 0;

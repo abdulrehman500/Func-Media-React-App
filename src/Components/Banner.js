@@ -27,7 +27,7 @@ export default function Banner() {
   </ol>
   <div class="carousel-inner" role="listbox">
     <div class="carousel-item active boat">
-      <div class="container h-100 d-none d-md-block">
+      <div class=" h-100 d-none d-md-block">
         <div class="row align-items-center h-100">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div class="caption animated fadeIn">
@@ -40,7 +40,7 @@ export default function Banner() {
       </div>
     </div>
     <div class="carousel-item sea">
-      <div class="container h-100 d-none d-md-block">
+      <div class=" d-none d-md-block">
         <div class="row align-items-center h-100">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div class="caption animated fadeIn">
@@ -53,7 +53,7 @@ export default function Banner() {
       </div>
     </div>
     <div class="carousel-item river">
-      <div class="container h-100 d-none d-md-block">
+      <div class=" d-none d-md-block">
         <div class="row align-items-center h-100">
           <div class="col-12 col-md-9 col-lg-7 col-xl-6">
             <div class="caption animated fadeIn">

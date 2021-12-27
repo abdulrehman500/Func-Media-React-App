@@ -17,9 +17,9 @@ export default function words() {
       <div class="bottom-wrapper">
          <a href="#work-with-us" 
          class="arrow-link w-inline-block">
-            <div class="d-flex">
-               <div>work with us</div>
-               <img src="https://assets.website-files.com/600dfcb84aa041e79f323f9e/60a6e92fefe81c34e8a9854f_Group%202%20(4).svg" loading="lazy" alt="" class="link-arrow rotate" />
+            <div class="d-flex arrow-wrapper">
+               <div className='text-work'>work with us</div>
+               <img className='arrow-icon' src="https://assets.website-files.com/600dfcb84aa041e79f323f9e/60a6e92fefe81c34e8a9854f_Group%202%20(4).svg" loading="lazy" alt="" class="link-arrow rotate" />
             </div>
          </a>
       </div>
@@ -28,7 +28,7 @@ export default function words() {
 </div>
 
 <div className="col-6">
-<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+<div id="carouselExampleControls" style={{marginTop:"120px"}} class="carousel slide" data-ride="carousel">
   <div class="carousel-inner-custom">
     <div class="carousel-item active">
       <div class="carousel-caption1">
