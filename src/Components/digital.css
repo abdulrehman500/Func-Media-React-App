@@ -192,7 +192,31 @@
     animation: scrolldown 2.2s cubic-bezier(0.76, 0, 0.3, 1) forwards infinite;
 }
 
-
+.carousel-item-next.carousel-item-left,
+    .carousel-item-prev.carousel-item-right {
+    -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+     }
+     .carousel-item-next,
+     .active.carousel-item-right {
+       -webkit-transform: translate3d(0, +200%, 0);
+            transform: translate3d(0, +200%, 0);
+     }
+     .carousel-item-prev,
+     .active.carousel-item-left {
+     -webkit-transform: translate3d(0, -200%, 0);
+            transform: translate3d(0, -200, 0);
+     }
+     @media all and (transform-3d), (-webkit-transform-3d) {
+        .active.carousel-item-left, .carousel-item-prev:not(.carousel-item-right) {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            }
+            .active.carousel-item-right, .carousel-item-next:not(.carousel-item-left) {
+                -webkit-transform: translate3d(0, 10, 0);
+                transform: translate3d(0, 10, 0);
+                }
+           }
 
 .scrolldown {
     width: 2px;
