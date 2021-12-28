@@ -6,7 +6,7 @@ export default function words() {
         <section>
         <div className='custom-container' >
         <div className='row'>
-        <div className='col-6'>
+        <div className='col-md-6'>
             <div class="testimonial-content-box ">
    <div class="content-330 custom-container">
       <h2 class="show_skew-on_load display-11 left-align bottom-space">their
@@ -27,7 +27,7 @@ export default function words() {
 </div>
 </div>
 
-<div className="col-6">
+<div className="col-md-6">
 <div id="carouselExampleControls" style={{marginTop:"120px"}} class="carousel slide" data-ride="carousel">
   <div class="carousel-inner-custom">
     <div class="carousel-item active">
